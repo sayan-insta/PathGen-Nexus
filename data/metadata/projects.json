@@ -1,0 +1,295 @@
+{
+    "data": {
+        "hits": [
+            {
+                "id": "HCMI-CMDC",
+                "primary_site": [
+                    "Ovary",
+                    "Hematopoietic and reticuloendothelial systems",
+                    "Nasal cavity and middle ear",
+                    "Other and ill-defined sites",
+                    "Skin",
+                    "Other and unspecified parts of biliary tract",
+                    "Breast",
+                    "Small intestine",
+                    "Liver and intrahepatic bile ducts",
+                    "Corpus uteri",
+                    "Gallbladder",
+                    "Stomach",
+                    "Brain",
+                    "Eye and adnexa",
+                    "Bladder",
+                    "Thyroid gland",
+                    "Connective, subcutaneous and other soft tissues",
+                    "Kidney",
+                    "Other and unspecified parts of tongue",
+                    "Larynx",
+                    "Bones, joints and articular cartilage of other and unspecified sites",
+                    "Adrenal gland",
+                    "Colon",
+                    "Other and unspecified parts of mouth",
+                    "Rectum",
+                    "Unknown",
+                    "Lymph nodes",
+                    "Uterus, NOS",
+                    "Rectosigmoid junction",
+                    "Bronchus and lung",
+                    "Pancreas",
+                    "Esophagus"
+                ],
+                "dbgap_accession_number": null,
+                "project_id": "HCMI-CMDC",
+                "disease_type": [
+                    "Transitional Cell Papillomas and Carcinomas",
+                    "Nevi and Melanomas",
+                    "Mature T- and NK-Cell Lymphomas",
+                    "Squamous Cell Neoplasms",
+                    "Osseous and Chondromatous Neoplasms",
+                    "Neuroepitheliomatous Neoplasms",
+                    "Myomatous Neoplasms",
+                    "Epithelial Neoplasms, NOS",
+                    "Malignant Lymphomas, NOS or Diffuse",
+                    "Soft Tissue Tumors and Sarcomas, NOS",
+                    "Complex Epithelial Neoplasms",
+                    "Cystic, Mucinous and Serous Neoplasms",
+                    "Miscellaneous Bone Tumors",
+                    "Fibromatous Neoplasms",
+                    "Acinar Cell Neoplasms",
+                    "Blood Vessel Tumors",
+                    "Ductal and Lobular Neoplasms",
+                    "Adenomas and Adenocarcinomas",
+                    "Gliomas",
+                    "Synovial-like Neoplasms",
+                    "Complex Mixed and Stromal Neoplasms",
+                    "Lymphoid Leukemias"
+                ],
+                "name": "NCI Cancer Model Development for the Human Cancer Model Initiative",
+                "releasable": true,
+                "state": "open",
+                "released": true
+            },
+            {
+                "id": "CPTAC-3",
+                "primary_site": [
+                    "Other and ill-defined sites",
+                    "Other and unspecified urinary organs",
+                    "Bronchus and lung",
+                    "Other and unspecified parts of tongue",
+                    "Brain",
+                    "Other and ill-defined sites in lip, oral cavity and pharynx",
+                    "Tonsil",
+                    "Kidney",
+                    "Breast",
+                    "Gum",
+                    "Larynx",
+                    "Lip",
+                    "Hematopoietic and reticuloendothelial systems",
+                    "Pancreas",
+                    "Stomach",
+                    "Base of tongue",
+                    "Other and unspecified parts of mouth",
+                    "Uterus, NOS",
+                    "Oropharynx",
+                    "Colon",
+                    "Unknown",
+                    "Floor of mouth"
+                ],
+                "dbgap_accession_number": "phs001287",
+                "project_id": "CPTAC-3",
+                "disease_type": [
+                    "Transitional Cell Papillomas and Carcinomas",
+                    "Epithelial Neoplasms, NOS",
+                    "Complex Mixed and Stromal Neoplasms",
+                    "Squamous Cell Neoplasms",
+                    "Myeloid Leukemias",
+                    "Gliomas",
+                    "Nevi and Melanomas",
+                    "Adenomas and Adenocarcinomas",
+                    "Ductal and Lobular Neoplasms",
+                    "Lipomatous Neoplasms",
+                    "Not Applicable",
+                    "Complex Epithelial Neoplasms"
+                ],
+                "name": "CPTAC-Brain, Head and Neck, Kidney, Lung, Pancreas, Uterus",
+                "releasable": true,
+                "state": "open",
+                "released": true
+            },
+            {
+                "id": "TCGA-LGG",
+                "primary_site": [
+                    "Brain"
+                ],
+                "dbgap_accession_number": null,
+                "project_id": "TCGA-LGG",
+                "disease_type": [
+                    "Gliomas"
+                ],
+                "name": "Brain Lower Grade Glioma",
+                "releasable": true,
+                "state": "open",
+                "released": true
+            },
+            {
+                "id": "TCGA-BRCA",
+                "primary_site": [
+                    "Breast"
+                ],
+                "dbgap_accession_number": null,
+                "project_id": "TCGA-BRCA",
+                "disease_type": [
+                    "Adnexal and Skin Appendage Neoplasms",
+                    "Adenomas and Adenocarcinomas",
+                    "Ductal and Lobular Neoplasms",
+                    "Cystic, Mucinous and Serous Neoplasms",
+                    "Complex Epithelial Neoplasms",
+                    "Fibroepithelial Neoplasms",
+                    "Squamous Cell Neoplasms",
+                    "Epithelial Neoplasms, NOS",
+                    "Basal Cell Neoplasms"
+                ],
+                "name": "Breast Invasive Carcinoma",
+                "releasable": true,
+                "state": "open",
+                "released": true
+            },
+            {
+                "id": "CTSP-DLBCL1",
+                "primary_site": [
+                    "Lymph nodes",
+                    "Unknown"
+                ],
+                "dbgap_accession_number": "phs001184",
+                "project_id": "CTSP-DLBCL1",
+                "disease_type": [
+                    "Mature B-Cell Lymphomas"
+                ],
+                "name": "CTSP Diffuse Large B-Cell Lymphoma (DLBCL) CALGB 50303",
+                "releasable": true,
+                "state": "open",
+                "released": true
+            },
+            {
+                "id": "APOLLO-LUAD",
+                "primary_site": [
+                    "Bronchus and lung"
+                ],
+                "dbgap_accession_number": "phs003011",
+                "project_id": "APOLLO-LUAD",
+                "disease_type": [
+                    "Adenomas and Adenocarcinomas"
+                ],
+                "name": "APOLLO1: Proteogenomic characterization of lung adenocarcinoma",
+                "releasable": true,
+                "state": "open",
+                "released": true
+            },
+            {
+                "id": "MATCH-B",
+                "primary_site": [
+                    "Small intestine",
+                    "Cervix uteri",
+                    "Colon",
+                    "Parotid gland",
+                    "Ovary",
+                    "Breast",
+                    "Unknown",
+                    "Skin",
+                    "Liver and intrahepatic bile ducts",
+                    "Renal pelvis",
+                    "Prostate gland",
+                    "Other and unspecified female genital organs",
+                    "Rectosigmoid junction",
+                    "Bladder",
+                    "Rectum",
+                    "Other and unspecified parts of biliary tract",
+                    "Gallbladder"
+                ],
+                "dbgap_accession_number": "phs002028",
+                "project_id": "MATCH-B",
+                "disease_type": [
+                    "Neoplasms, NOS",
+                    "Epithelial Neoplasms, NOS",
+                    "Ductal and Lobular Neoplasms",
+                    "Nerve Sheath Tumors",
+                    "Transitional Cell Papillomas and Carcinomas",
+                    "Adenomas and Adenocarcinomas"
+                ],
+                "name": "Genomic Characterization CS-MATCH-0007 Arm B",
+                "releasable": false,
+                "state": "open",
+                "released": true
+            },
+            {
+                "id": "CMI-ASC",
+                "primary_site": [
+                    "Heart, mediastinum, and pleura",
+                    "Bronchus and lung",
+                    "Breast",
+                    "Skin",
+                    "Lymph nodes",
+                    "Other and ill-defined digestive organs",
+                    "Other and ill-defined sites",
+                    "Bladder",
+                    "Other and ill-defined sites within respiratory system and intrathoracic organs"
+                ],
+                "dbgap_accession_number": "phs001931",
+                "project_id": "CMI-ASC",
+                "disease_type": [
+                    "Soft Tissue Tumors and Sarcomas, NOS"
+                ],
+                "name": "Count Me In (CMI): The Angiosarcoma (ASC) Project",
+                "releasable": true,
+                "state": "open",
+                "released": true
+            },
+            {
+                "id": "MATCH-C1",
+                "primary_site": [
+                    "Bronchus and lung",
+                    "Liver and intrahepatic bile ducts",
+                    "Stomach",
+                    "Palate",
+                    "Esophagus",
+                    "Rectum"
+                ],
+                "dbgap_accession_number": "phs002177",
+                "project_id": "MATCH-C1",
+                "disease_type": [
+                    "Nevi and Melanomas",
+                    "Adenomas and Adenocarcinomas",
+                    "Neoplasms, NOS"
+                ],
+                "name": "Genomic Characterization CS-MATCH-0007 Arm C1",
+                "releasable": false,
+                "state": "open",
+                "released": true
+            },
+            {
+                "id": "BEATAML1.0-CRENOLANIB",
+                "primary_site": [
+                    "Hematopoietic and reticuloendothelial systems"
+                ],
+                "dbgap_accession_number": "phs001628",
+                "project_id": "BEATAML1.0-CRENOLANIB",
+                "disease_type": [
+                    "Myeloid Leukemias"
+                ],
+                "name": "Clinical Resistance to Crenolanib in Acute Myeloid Leukemia Due to Diverse Molecular Mechanisms",
+                "releasable": false,
+                "state": "open",
+                "released": true
+            }
+        ],
+        "pagination": {
+            "count": 10,
+            "total": 91,
+            "size": 10,
+            "from": 0,
+            "sort": "",
+            "page": 1,
+            "pages": 10
+        }
+    },
+    "warnings": {}
+}

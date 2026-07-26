@@ -1,20 +1,16 @@
+from src.ingestion.pipeline import DataIngestionPipeline
 from src.logger.logger import logger
-from src.config.config import PROJECT_ROOT
 
 
 def main():
 
-    logger.info("Application Started")
+    logger.info("Starting Pipeline")
 
-    print("=" * 70)
-    print("               PathGen-Nexus")
-    print("=" * 70)
+    pipeline = DataIngestionPipeline()
 
-    print(f"\nProject Root:\n{PROJECT_ROOT}")
+    pipeline.run()
 
-    logger.info("Project Root Printed")
-
-    print("\nApplication Started Successfully")
+    logger.info("Pipeline Finished")
 
 
 if __name__ == "__main__":
