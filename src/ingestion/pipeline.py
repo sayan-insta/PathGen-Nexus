@@ -1,17 +1,33 @@
+"""
+Data Ingestion Pipeline
+"""
+
 from src.ingestion.gdc_client import GDCClient
+from src.ingestion.cases_client import CasesClient
 from src.ingestion.metadata_writer import MetadataWriter
+from src.logger.logger import logger
 
 
 class DataIngestionPipeline:
 
+    def __init__(self):
+
+        self.project_client = GDCClient()
+        self.case_client = CasesClient()
+        self.writer = MetadataWriter()
+
     def run(self):
 
-        client = GDCClient()
+        logger.info("Pipeline Started")
 
-        writer = MetadataWriter()
+        # Download project metadata
+        projects = self.project_client.get_projects()
+        self.writer.save_projects(projects)
 
-        data = client.get_projects()
+        # Download TCGA-BRCA cases
+        cases = self.case_client.get_cases()
+        self.writer.save_cases(cases)
 
-        writer.save_projects(data)
+        logger.info("Pipeline Finished")
 
-        print("Metadata Download Completed")
+        print("\nTCGA-BRCA Cases Download Completed.")
