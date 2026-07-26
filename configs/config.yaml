@@ -1,0 +1,19 @@
+project:
+
+  name: PathGen-Nexus
+
+  version: 1.0
+
+  author: Sayan Chakraborty
+
+paths:
+
+  raw_data: data/raw
+
+  processed_data: data/processed
+
+  metadata: data/metadata
+
+logging:
+
+  level: INFO
