@@ -10,9 +10,6 @@ def main():
 
     pipeline.run()
 
-    logger.info("Pipeline Finished")
-
 
 if __name__ == "__main__":
-
     main()
