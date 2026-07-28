@@ -1,0 +1,7 @@
+===== VAE Evaluation =====
+
+Original Features : 5000
+Latent Features   : 128
+Samples           : 159
+Compression Ratio : 0.0256
+Reduction         : 97.44%
