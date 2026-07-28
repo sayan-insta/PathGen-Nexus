@@ -3,7 +3,9 @@ from src.ingestion.cases_client import CasesClient
 from src.ingestion.files_client import FilesClient
 from src.ingestion.rna_client import RNAClient
 
+from src.ingestion.rna_downloader import RNADownloader
 from src.ingestion.metadata_writer import MetadataWriter
+
 from src.logger.logger import logger
 
 
@@ -17,6 +19,8 @@ class DataIngestionPipeline:
         self.rna_client = RNAClient()
 
         self.writer = MetadataWriter()
+
+        self.rna_downloader = RNADownloader()
 
     def run(self):
 
@@ -57,7 +61,7 @@ class DataIngestionPipeline:
         logger.info("Files Completed")
 
         ############################################################
-        # RNA
+        # RNA METADATA
         ############################################################
 
         logger.info("Downloading RNA Metadata...")
@@ -67,6 +71,20 @@ class DataIngestionPipeline:
         self.writer.save_rna(rna)
 
         logger.info("RNA Metadata Completed")
+
+        ############################################################
+        # RNA FILE DOWNLOAD
+        ############################################################
+
+        logger.info("Downloading RNA Expression Files...")
+
+        self.rna_downloader.download()
+
+        logger.info("RNA Expression Files Download Completed")
+
+        ############################################################
+        # PIPELINE COMPLETED
+        ############################################################
 
         print()
         print("=" * 65)
